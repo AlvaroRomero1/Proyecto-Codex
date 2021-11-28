@@ -60,7 +60,7 @@ body {
 /* SECCION 1 */
 
 .background1 {
-    background: url(images/morVic.jpg) no-repeat center center;
+    background: url(../images/morVic.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 85vh;
