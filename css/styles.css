@@ -81,10 +81,10 @@ body {
     content: '';
     background-color: black;
     opacity: 0.85;
-    position: relative;
-    top: 0%;
+    position: absolute;
+    top: 11.5%;
     right: 0%;
-    bottom: 0%;
+    bottom: 3.6%;
     left: 0%;
 }
 
@@ -164,6 +164,11 @@ body {
 
 .foto4 {
     grid-area: foto4;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
 }
 
 .verMas p a {
