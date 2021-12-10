@@ -15,7 +15,7 @@
 </head>
 
 <body class="fondoGeneral">
-    <!-- ENCABEZADO -->
+    <!-- HEADER -->
     <header class="headerUno">
         <div class="headerLogo">
             <img src="../images/logo1.jpg" alt="LogoCodex1">
@@ -31,19 +31,27 @@
                 <li> <a href="./contacto.html"> Contacto </a> </li>
             </ul>
         </nav>
+        <button class="button" id="button" onclick="myFunction(this)">
+            <div class="linea1"></div>
+            <div class="linea2"></div>
+            <div class="linea3"></div>
+        </button>
     </header>
 
-    <!-- SECCIÓN 1 -->
+    <!-- TITULAR/SUBTITULO -->
     <section>
-        <article class="textoMedia1">
+        <article class="Titular1">
             <h2> SEGUINOS EN </h2>
-            <h4> Codex Twitter, Instagram, y más! </h4>
+            <h3> Codex Twitter, Instagram, y más! </h3>
         </article>
+    </section>
 
-        <!-- CODEX INSTAGRAM -->
-        <article class="cdxIg">
-            <div>
+    <!-- CODEX INSTAGRAM -->
+    <section class="principalConteiner">
+        <article class="secondaryConteiner IG-YT">
+            <div class="divSuperior">
                 <p> @Codex </p>
+                <div class="social__linkbar-border"></div>
                 <img width="20px" height="20px" src="../images/ig logo.jpg" alt="">
                 <a href="https://www.instagram.com/instagram/"> CODEX EN INSTAGRAM </a>
             </div>
@@ -52,12 +60,14 @@
                     frameborder="0"></iframe>
                 <iframe width="200" height="300" src="https://www.instagram.com/p/CTNGPEjlMAU/embed"
                     frameborder="0"></iframe>
+                <iframe width="200" height="300" src="https://www.instagram.com/p/CTNGPEjlMAU/embed"
+                    frameborder="0"></iframe>
             </div>
         </article>
 
         <!-- CODEX TWITTER -->
-        <article class="contenedorTw">
-            <div class="cdxTw">
+        <article class="secondaryConteiner TW-COMUNIDAD ">
+            <div class="cdxEn-Logo">
                 <img width="25px" height="20px" src="../images/logo-twitter.png" alt="">
                 <a href="https://twitter.com/Twitter"> CODEX EN TWITTER </a>
             </div>
@@ -72,8 +82,8 @@
     <!-- SECCIÓN 2 -->
 
     <!-- CODEX YOUTUBE -->
-    <section>
-        <article class="contenedorYt">
+    <section class="principalConteiner">
+        <article class="secondaryConteiner IG-YT">
             <div class="lastVideo">
                 <p> No te pierdas nuestros últimos videos! </p>
             </div>
@@ -81,22 +91,36 @@
                 <img width="30px" height="20px" src="../images/logo-yt.png" alt="">
                 <a href="https://www.youtube.com/c/YouTubeLatam"> CODEX EN YOUTUBE </a>
             </div>
-            <div class="video1">
-                <iframe width="300" height="200" src="https://www.youtube.com/embed/-xUkRomdkiE"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="video2">
-                <iframe width="300" height="200" src="https://www.youtube.com/embed/yvkPSA6RabI"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <div class="videosYT">
+                <div class="video1">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/-xUkRomdkiE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="video2">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/yvkPSA6RabI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="video3">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/yvkPSA6RabI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="video4">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/yvkPSA6RabI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
             </div>
         </article>
 
         <!-- COMUNIDAD -->
-        <article class="contenedorFans">
+        <article class="secondaryConteiner TW-COMUNIDAD">
             <div class="comunidadH2">
                 <h2 id="COMUNIDAD"> COMUNIDAD </h2>
             </div>
@@ -133,6 +157,8 @@
             <p> © 2021, AR - Codex. All Rights Reserved. </p>
         </div>
     </footer>
+
+    <script src="../js/scripts.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,54 @@
+@media (max-width: 1200px) {
+
+    /* CARDS */
+    .cardsEquipos-1,
+    .cardsEquipos-2,
+    .cardsEquipos-3 {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* TITULO-SUBTITULO */
+    .TextEquipos {
+        width: 70%;
+
+        & h2 {
+            font-size: 2.5rem;
+        }
+    }
+
+    /* CARDS */
+    .seccion2equipos {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardsEquipos-2,
+    .cardsEquipos-3 {
+        margin-top: 3rem;
+    }
+
+    .contenidoCards {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* TITULO-SUBTITULO */
+    .TextEquipos {
+        
+        & h2 {
+            font-size: 2.5rem;
+        }
+        
+        & h3 {
+            font-size: 1.1rem;
+        }
+    }
+
+}

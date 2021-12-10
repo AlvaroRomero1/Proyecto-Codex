@@ -1,0 +1,21 @@
+@import "general";
+@import "auxiliares";
+
+// INDEX // (I: SECCIÓN EQUIPOS)
+@import "header";
+@import "seccion-1I";
+@import "galeria-index";
+@import "footer";
+
+// EQUIPOS // (E: SECCIÓN EQUIPOS)
+@import "titulo-subtitulo-E";
+@import "cards-E";
+
+// MEDIA // (M: SECCIÓN MEDIA)
+@import "titulo-subtitulo-M";
+@import "redes-M";
+
+
+// MEDIA QUERIES //
+@import "mediaQueries-Home";
+@import "mediaQueries-Equipos";

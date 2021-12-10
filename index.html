@@ -10,36 +10,32 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Codex Team</title>
 </head>
 
 <body>
-    <!-- HEADER BOOSTRAP -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000;">
-        <div class="container">
-            <div class="LogoH1">
-                <img src="./images/logo1.jpg" alt="#">
-                <h1 class="navbar-brand"> Codex</h1>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion"
-                aria-controls="MenuNavegacion" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="MenuNavegacion">
-                <ul class="navbar-nav">
-                    <li class="nav-item"> <a class="nav-link" href="./index.html"> Home </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="./pages/equipo.html"> Equipos </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="./pages/media.html"> Media </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="./pages/noticias.html"> Noticias </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="./pages/about-codex.html"> About Codex </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="./pages/contacto.html"> Contacto </a> </li>
-                </ul>
-            </div>
+    <!-- HEADER -->
+    <header class="headerUno">
+        <div class="headerLogo">
+            <img src="../images/logo1.jpg" alt="LogoCodex1">
+            <h1> CODEX </h1>
         </div>
-    </nav>
+        <nav class="headerMenu">
+            <ul>
+                <li> <a href="./index.html"> Home </a> </li>
+                <li> <a href="./pages/equipo.html"> Equipos </a> </li>
+                <li> <a href="./pages/media.html"> Media </a> </li>
+                <li> <a href="./pages/noticias.html"> Noticias </a> </li>
+                <li> <a href="./pages/about-codex.html"> About Codex </a></li>
+                <li> <a href="./pages/contacto.html"> Contacto </a> </li>
+            </ul>
+        </nav>
+        <button class="button" id="button" onclick="myFunction(this)">
+            <div class="linea1"></div>
+            <div class="linea2"></div>
+            <div class="linea3"></div>
+        </button>
     </header>
 
     <!-- SECCIÓN 1 -->
@@ -53,9 +49,8 @@
                     eum
                     aperiam iure. </p>
             </div>
-            <div class="VH"> <iframe class="videoHome" width="700" height="400"
-                    src="https://www.youtube-nocookie.com/embed/j5QahFFHv0I" title="YouTube video player"
-                    frameborder="0"
+            <div class="VH"> <iframe class="videoHome" src="https://www.youtube-nocookie.com/embed/j5QahFFHv0I"
+                    title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe> </div>
         </article>
@@ -108,9 +103,7 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
 </body>
 
 </html>

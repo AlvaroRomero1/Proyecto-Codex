@@ -1,0 +1,51 @@
+/* CARDS */
+.seccion2equipos {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 3rem 5rem 3rem;
+}
+
+.cardsEquipos-1,
+.cardsEquipos-2,
+.cardsEquipos-3 {
+    width: 350px;
+    height: 450px;
+    margin: 0 4%;
+    background: var(background-image);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+    
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.contenidoCards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: .2s;
+
+    & h2 {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    & h2, 
+    & p {
+        color: rgba(255, 255, 255, 0.8);
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,26 @@
+/* CODEX IG/TW/YT/COMUNIDAD */
+.principalConteiner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secondaryConteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.IG-YT {
+    width: 60%;
+    border: 1px red solid;
+}
+
+.TW-COMUNIDAD {
+    width: 40%;
+    border: 1px red solid;
+}
+
+.divSuperior {
+    display: flex;
+    flex-direction: row;
+}

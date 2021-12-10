@@ -1,0 +1,52 @@
+/* HEADER */
+
+.headerUno {
+    background-color: black;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    border-bottom: 1.25px white solid;
+    z-index: 2;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+
+    & img {
+        width: 5rem;
+    }
+
+    & h1 {
+        color: #e5e5e5;
+        font-size: 3rem;
+        margin: 0rem 1rem;
+    }
+}
+
+.headerMenu {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    & ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 100%;
+    }
+
+    & li a {
+        color: #e5e5e5;
+        font-size: 1.15rem;
+    }
+}
+
+.button {
+    display: none;
+}

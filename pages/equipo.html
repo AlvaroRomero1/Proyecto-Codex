@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=r, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,7 +15,7 @@
 </head>
 
 <body class="fondoGeneral">
-    <!-- ENCABEZADO -->
+    <!-- HEADER -->
     <header class="headerUno">
         <div class="headerLogo">
             <img src="../images/logo1.jpg" alt="LogoCodex1">
@@ -31,42 +31,50 @@
                 <li> <a href="./contacto.html"> Contacto </a> </li>
             </ul>
         </nav>
+        <button class="button" id="button" onclick="myFunction(this)">
+            <div class="linea1"></div>
+            <div class="linea2"></div>
+            <div class="linea3"></div>
+        </button>
     </header>
 
     <!-- SECCIÓN 1-->
-    <section>
-        <article class="fondoSecEquipos">
+    <section class="seccion1equipos">
+        <article class="TextEquipos">
             <h2> EQUIPOS </h2>
-            <h4> Quodsi haberent magnalia inter potentiam et divitias, et non illam quidem haec eo spectant haec
+            <h3> Quodsi haberent magnalia inter potentiam et divitias, et non illam quidem haec eo spectant haec
                 quoque
-                vos omnino desit illud quo solo felicitatis libertatisque </h4>
+                vos omnino desit illud quo solo felicitatis libertatisque </h3>
         </article>
     </section>
 
     <!-- SECCIÓN 2 -->
-    <section>
-        <article class="csgo">
-            <img src="../images/csgo.jpg" alt="EJ 1">
-            <p class="textoEtiqueta"> Próximamente.. </p>
-            <p class="descripcion1"> Quodsi haberent magnalia inter potentiam et divitias, et non illam quidem haeceo
-                spectant. </p>
+    <section class="seccion2equipos">
+        <article class="cardsEquipos-1" style="background-image: url(../images/csgo.jpg);">
+            <div class="contenidoCards">
+                <h2> CS:GO </h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aliquam saepe incidunt, debitis aut
+                    iste quisquam sequi explicabo doloribus.</p>
+            </div>
         </article>
 
-        <article class="lol">
-            <img src="../images/lol.jpg" alt="EJ 1">
-            <p class="textoEtiqueta"> Próximamente.. </p>
-            <p class="descripcion1"> Quodsi haberent magnalia inter potentiam et divitias, et non illam quidem haec eo
-                spectant. </p>
+        <article class="cardsEquipos-2" style="background-image: url(../images/lol.jpg);">
+            <div class="contenidoCards">
+                <h2> LEAGUE OF LEGENDS </h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aliquam saepe incidunt, debitis
+                    aut
+                    iste quisquam sequi explicabo doloribus.</p>
+            </div>
         </article>
 
-        <div class="valorant">
-            <article class="">
-                <img src="../images/SageValorant .jpg" alt="EJ 1">
-                <p class="textoEtiqueta"> Próximamente.. </p>
-                <p class="descripcion1"> Quodsi haberent magnalia inter potentiam et divitias, et non illam quidem haec
-                    eo spectant. </p>
-            </article>
-        </div>
+        <article class="cardsEquipos-3" style="background-image: url(../images/SageValorant\ .jpg);">
+            <div class="contenidoCards">
+                <h2> VALORANT </h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aliquam saepe incidunt,
+                    debitis aut
+                    iste quisquam sequi explicabo doloribus.</p>
+            </div>
+        </article>
     </section>
 
     <!-- FOOTER -->
@@ -95,6 +103,8 @@
             <p> © 2021, AR - Codex. All Rights Reserved. </p>
         </div>
     </footer>
+
+    <script src="../js/scripts.js"></script>
 </body>
 
 </html>
