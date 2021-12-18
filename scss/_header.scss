@@ -1,13 +1,10 @@
 /* HEADER */
 
 .headerUno {
+    @include display-JC-AI-width (flex, space-around, center, 100%);
     background-color: black;
     position: sticky;
     top: 0%;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 1rem 0rem;
     border-bottom: 1.25px white solid;
     z-index: 2;
@@ -29,16 +26,11 @@
 }
 
 .headerMenu {
-    width: 50%;
-    display: flex;
-    align-items: center;
+    @include display-JC-AI-width (flex, inherit, center, 50%);
 
     & ul {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include display-JC-AI-width (flex, space-between, center, 100%);
         list-style: none;
-        width: 100%;
     }
 
     & li a {

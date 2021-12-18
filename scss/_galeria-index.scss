@@ -5,11 +5,9 @@
 }
 
 .galeryTitle {
+    @include display-JC-AI-width (flex, center, inherit, 100%);
     color: #dfdbdb;
-    display: flex;
-    justify-content: center;
     font-size: 1.7rem;
-    width: 100%;
     margin: 2rem 0rem 2rem;
 }
 

@@ -1,5 +1,6 @@
 @import "general";
 @import "auxiliares";
+@import "mixins";
 
 // INDEX // (I: SECCIÓN EQUIPOS)
 @import "header";
@@ -14,7 +15,6 @@
 // MEDIA // (M: SECCIÓN MEDIA)
 @import "titulo-subtitulo-M";
 @import "redes-M";
-
 
 // MEDIA QUERIES //
 @import "mediaQueries-Home";

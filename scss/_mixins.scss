@@ -1,0 +1,11 @@
+%titulo-subtitulo {
+    color: #383838;
+    text-align: center;
+}
+
+@mixin display-JC-AI-width ($display, $JC, $AI, $ancho) {
+    display: $display;
+    justify-content: $JC;
+    align-items: $AI;
+    width: $ancho;
+}

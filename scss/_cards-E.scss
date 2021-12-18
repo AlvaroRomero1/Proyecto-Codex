@@ -22,11 +22,8 @@
 }
 
 .contenidoCards {
-    width: 100%;
+    @include display-JC-AI-width (flex, center, center, 100%);
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     background: rgba(0, 0, 0, .8);
     opacity: 0;
