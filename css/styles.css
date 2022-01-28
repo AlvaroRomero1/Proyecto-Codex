@@ -727,7 +727,7 @@ body {
 
 @media (max-width: 317px) {
   .background1::before {
-    bottom: 7%; } }
+    bottom: 3.4%; } }
 
 @media (max-width: 576px) {
   .social {
