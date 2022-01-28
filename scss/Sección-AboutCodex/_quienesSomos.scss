@@ -1,0 +1,58 @@
+.contenedorMisionVision {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.mision-vision1,
+.mision-vision2 {
+    width: 40%;
+    padding: 7rem 0;
+    margin: 2rem 0;
+    color: #eaeaea;
+    background-color: #181818;
+    box-shadow: 2px 2px 2px rgba(18, 18, 18, 0.40);
+
+    & h2 {
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+        padding-bottom: 6rem;
+    }
+
+    & p {
+        font-size: 1.2rem;
+        padding: 0 6rem;
+    }
+}
+
+.contenedorimg {
+    background: linear-gradient(rgba(237, 237, 237, 0.95), rgba(237, 237, 237, 0.95)), url(/images/esports.jpg) bottom center;
+}
+
+.contenedorNuestrosValores {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 0;
+    border-top: 2px solid #181818;
+
+    & h2 {
+        font-size: 2rem;
+
+    }
+
+    & h3 {
+        font-size: 1.3rem;
+        padding: 1rem 25%;
+    }
+
+    & div {
+        margin: 2rem 0;
+
+        & p {
+            font-size: 1.1rem;
+            padding: 0.5rem 10%;
+        }
+    }
+}

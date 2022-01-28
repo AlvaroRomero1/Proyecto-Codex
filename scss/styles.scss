@@ -1,21 +1,38 @@
 @import "general";
 @import "auxiliares";
 @import "mixins";
+@import "./titulos-subtitulos";
 
 // INDEX // (I: SECCIÓN EQUIPOS)
-@import "header";
-@import "seccion-1I";
-@import "galeria-index";
-@import "footer";
+@import "./Home/header";
+@import "./Home/seccion-1I";
+@import "./Home/galeria-index";
+@import "./Home/footer";
 
 // EQUIPOS // (E: SECCIÓN EQUIPOS)
-@import "titulo-subtitulo-E";
-@import "cards-E";
+@import "./Sección-Equipos/cards-E";
 
 // MEDIA // (M: SECCIÓN MEDIA)
-@import "titulo-subtitulo-M";
-@import "redes-M";
+@import "./Sección-Media/redes-M";
+
+// NOTICIAS // (N: SECCIÓN NOTICIAS)
+@import "./Sección-Noticias/noticias";
+
+// ABOUT-CODEX // (A: SECCIÓN ABOUT-CODEX)
+@import "./Sección-AboutCodex/quienesSomos";
+
+// CONTACTO // (C: SECCIÓN CONTACTO)
+@import "./Sección-Contacto/formulario";
 
 // MEDIA QUERIES //
-@import "mediaQueries-Home";
-@import "mediaQueries-Equipos";
+// INDEX //
+@import "./Media-Queries/mediaQueries-Header";
+@import "./Media-Queries/mediaQueries-Home";
+@import "./Media-Queries/mediaQueries-Footer";
+
+//////////////////////////////////////////////
+@import "./Media-Queries/mediaQueries-Equipos";
+@import "./Media-Queries/mediaQueries-Media";
+@import "./Media-Queries/mediaQueries-Noticias";
+@import "./Media-Queries/mediaQueries-AboutCodex";
+@import "./Media-Queries/mediaQueries-Contacto";

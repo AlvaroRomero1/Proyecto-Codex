@@ -1,0 +1,150 @@
+/* MEDIA QUERIES */
+
+/* HOME */
+@media (max-width: 1200px) {
+
+    /* SECCIÓN 1 */
+    .background1 {
+        align-items: inherit;
+    }
+
+    .globalContent1 {
+        flex-direction: column;
+    }
+
+    .textContent1 {
+        width: 90%;
+        padding-top: 1rem;
+
+        & h2 {
+            font-size: 3rem;
+        }
+
+        & p {
+            width: 60%;
+        }
+    }
+
+    .VH {
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+    /* GALERÍA HOME */
+    .containerGrid {
+        height: 50vh;
+        padding: 1rem 5rem;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* SECCIÓN 1 */
+    .background1 {
+        align-items: inherit;
+        height: 85vh;
+
+        &:before {
+            bottom: 1.9%;
+        }
+    }
+
+    .globalContent1 {
+        flex-direction: column;
+    }
+
+    .textContent1 {
+        width: 100%;
+        padding: 1rem 0;
+
+        & h2 {
+            font-size: 3rem;
+        }
+
+        & p {
+            width: 60%;
+        }
+    }
+
+    .VH {
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+
+    /* GALERÍA HOME */
+    .containerGrid {
+        height: 50vh;
+        padding: 1rem 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* SECCION 1HOME */
+    .textContent1{
+        & h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        & p {
+            font-size: 1.1rem;
+        }
+    }
+
+    /* GALERÍA HOME */
+    .galeryTitle {
+        font-size: 1.40rem;
+    }
+
+    .verMas p a {
+        font-size: 1rem;
+        padding-right: 5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    /* HEADER */
+    .headerUno {
+        padding: 1rem 3rem;
+    }
+
+    /* SECCION 1HOME */
+
+    .textContent1{
+        & h2 {
+            font-size: 1.7rem;
+            margin-bottom: 1rem;
+        }
+
+        & p {
+            font-size: 1rem;
+        }
+    }
+
+    .background1::before {
+        bottom: 3.3%;
+    }
+
+    /* GALERÍA HOME */
+    .galeryTitle {
+        font-size: 1.25rem;
+    }
+    
+    .containerGrid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30% 20% 20% 30%;
+        grid-template-areas:
+            "foto1 foto1"
+            "foto2 foto3"
+            "foto5 foto6"
+            "foto4 foto4";
+        height: 100vh;
+    }
+
+    .verMas p a {
+        font-size: 0.9rem;
+        padding-top: 0.80rem;
+    }
+
+}

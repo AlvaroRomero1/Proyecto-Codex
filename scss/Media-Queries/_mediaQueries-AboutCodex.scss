@@ -1,0 +1,85 @@
+@media (max-width: 992px) {
+
+    .mision-vision1,
+    .mision-vision2 {
+        padding: 4rem 0;
+
+        & p {
+            padding: 0 3rem;
+        }
+    }
+
+    .contenedorNuestrosValores {
+
+        & h3 {
+            padding: 1rem 8rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .contenedorMisionVision {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mision-vision1,
+    .mision-vision2 {
+        width: 70%;
+
+        & h2 {
+            font-size: 2.1rem;
+            padding-bottom: 3rem;
+        }
+
+        & p {
+            font-size: 1.1rem;
+        }
+    }
+
+    .contenedorNuestrosValores {
+
+        & h3 {
+            font-size: 1.25rem;
+        }
+
+        & .valores {
+            & p {
+                font-size: 1.1rem;
+                padding: 0.5rem 6rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    .mision-vision1,
+    .mision-vision2 {
+        width: 70%;
+
+        & h2 {
+            font-size: 1.8rem;
+        }
+
+        & p {
+            font-size: 1rem;
+        }
+    }
+
+    .contenedorNuestrosValores {
+
+        & h3 {
+            font-size: 1.15rem;
+            padding: 1rem 5rem;
+        }
+
+        & .valores {
+            & p {
+                font-size: 1rem;
+            }
+        }
+    }
+}

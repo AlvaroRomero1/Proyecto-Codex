@@ -1,0 +1,23 @@
+.contenedorTitulo {
+    display: block;
+    text-align: center;
+    padding: 3rem 0;
+    margin-bottom: 4rem;
+    color: #181818;
+    background: linear-gradient(rgba(237, 237, 237, 0.85), rgba(237, 237, 237, 0.85)), url(/images/banner.jpg) center;
+}
+
+.subContenedorTitulo {
+    & h2 {
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+        text-shadow: 1px 1px 1px rgba(18, 18, 18, 0.40);
+    }
+
+    & h3 {
+        padding: 0 25%;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px rgba(18, 18, 18, 0.30);
+    }
+}

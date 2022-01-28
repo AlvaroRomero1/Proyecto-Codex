@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Podes contactarte con nosotros a través nuestro correo electrónico o por cualquiera de nuestras redes sociales.">
+    <meta name="description"
+        content="Podes contactarte con nosotros a través nuestro correo electrónico o por cualquiera de nuestras redes sociales.">
     <meta name="keywords" content="esports, eSports, codex, contacto ">
+    <link rel="icon" href="/images/logo2.png" type="image/png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,7 +22,7 @@
     <!-- HEADER -->
     <header class="headerUno">
         <div class="headerLogo">
-            <img src="../images/logo1.jpg" alt="LogoCodex1">
+            <img src="../images/logo2.png" alt="LogoCodex1">
             <h1> CODEX </h1>
         </div>
         <nav class="headerMenu">
@@ -41,77 +43,97 @@
     </header>
 
     <section>
-        <article class="contenedorContact">
-            <div class="contactTitulo">
+        <article class="contenedorTitulo">
+            <div class="subContenedorTitulo">
                 <h2> CONTACTO </h2>
-            </div>
-            <div class="contenedorH3P">
-                <h3> Tollere odium autem in nostra potestate sint, ab omnibus et contra naturam transferre in nobis.
-                </h3>
-                <p> Tollere odium autem in nostra potestate sint, ab omnibus et contra naturam transferre in nobis. </p>
-                <p> Comentario breve </p>
+                <h3> Comunicate con nosotros a través del siguiente formulario y nos pondremos en
+                    contacto contigo pronto. </h3>
             </div>
         </article>
 
         <!-- FORMULARIO -->
-        <article class="contenedorForm">
-            <div class="name">
-                <form action="/" method="post">
-                    <label for="Nombre/Empresa"> </label>
-                    <input id="Nombre/Empresa" type="text" placeholder="Nombre/Empresa" required>
-            </div>
-
-            <div>
-                <label for="Correo Electrónico"> </label>
-                <input id="Correo Electrónico" type="email" placeholder="Correo Electrónico" required>
-            </div>
-
-            <div>
-                <label for="País"> </label>
-                <input id="País" type="text" placeholder="País" required>
-            </div>
-
-            <div>
-                <label for="Mensaje"> </label>
-                <textarea id="Mensaje" cols="21" rows="5" placeholder="Mensaje" required> </textarea>
-            </div>
-
-            <div>
-                <label for="Enviar"> </label>
-                <input id="Enviar" type="submit" placeholder="Enviar" required>
-            </div>
-            </form>
-        </article>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="footerRow">
-            <div class="footerRef">
-                <div class="">
-                    <h2> Codex </h2>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad sit possimus
-                        excepturi
-                        consequatur vero voluptate impedit voluptates repellat enim nemo. </p>
+        <article class="ConteinerFormulario">
+            <div class="ConteinerContacto">
+                <div class="FormularioContacto">
+                    <form>
+                        <p>
+                            <label> Nombre </label>
+                            <input type="text" name="nombre">
+                        </p>
+                        <p>
+                            <label> Correo Electrónico </label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label> Teléfono </label>
+                            <input type="tel" name="telefono">
+                        </p>
+                        <p>
+                            <label> Asunto </label>
+                            <input type="text" name="asunto">
+                        </p>
+                        <p class="block">
+                            <label> Mensaje </label>
+                            <textarea name="mensaje" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <button> Enviar </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="InfoContacto">
+                    <p> Más Información </p>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina.</li>
+                        <li><i class="fas fa-phone"></i> (154) 342 472 0277</li>
+                        <li><i class="fas fa-envelope-open-text"></i> contacto.codex1@gmail.com</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus
+                        repellendus?</p>
+                    <p>Codex Team</p>
                 </div>
             </div>
+        </article>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="social">
+                <div class="iconosocial"><a href="#">
+                        <span> <i class="fab fa-facebook-f"></i> </span>
+                    </a>
+                </div>
 
-            <div class="footerSocial">
-                <h2> Redes Sociales </h2>
-                <ul>
-                    <li> Twitter </li>
-                    <li> Instagram </li>
-                    <li> YouTube </li>
-                    <li> Discord </li>
-                </ul>
+                <div class="iconosocial"> <a href="https://www.instagram.com/codex.ap/">
+                        <span> <i class="fab fa-instagram"></i> </span>
+                    </a>
+                </div>
+
+                <div class="iconosocial"> <a href="#">
+                        <span> <i class="fab fa-twitter"></i> </span>
+                    </a>
+                </div>
+
+                <div class="iconosocial"> <a href="#">
+                        <span> <i class="fab fa-youtube"></i> </span>
+                    </a>
+                </div>
+
+                <div class="iconosocial"> <a href="https://discord.gg/8zXVZdR6ph">
+                        <span> <i class="fab fa-discord"></i> </span>
+                    </a>
+                </div>
+
+                <div class="iconosocial"> <a href="#">
+                        <span> <i class="fab fa-twitch"></i> </span>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="copyright">
-            <p> © 2021, AR - Codex. All Rights Reserved. </p>
-        </div>
-    </footer>
+            <div class="copyright">
+                <p> © 2022, AR - Codex. All Rights Reserved. </p>
+            </div>
+        </footer>
 
-    <script src="../js/scripts.js"></script>
+        <script src="../js/scripts.js"></script>
+        <script src="https://kit.fontawesome.com/9f3a8dbd16.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

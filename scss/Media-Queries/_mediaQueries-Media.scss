@@ -1,0 +1,132 @@
+@media (max-width: 992px) {
+
+    /* INSTAGRAM - TWITTER */
+    .contenedor-IG,
+    .contenedor-TW {
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+    .texto-linkbar-social {
+        font-size: 18px;
+    }
+
+    .link-linkbar-social,
+    .link-linkbar-twitter,
+    .link-linkbar-yt,
+    .link-linkbar-comunidad {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+    .icono-linkbar-social,
+    .icono-linkbar-twitter,
+    .icono-linkbar-yt,
+    .icono-linkbar-comunidad {
+
+        & img {
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    /* YOUTUBE - COMUNIDAD*/
+    .Titulo-ty-1,
+    .Titulo-comunidad-1 {
+        font-size: 2.8rem;
+    }
+
+    .Sub-titulo-ty-1,
+    .Sub-titulo-comunidad {
+        font-size: 1.3rem;
+    }
+
+    .contenedorVideos {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .video1 {
+        width: 100%;
+    }
+
+    .video2,
+    .video3 {
+        width: 48%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .principalConteiner {
+        flex-direction: column;
+    }
+
+    /* INSTAGRAM - TWITTER */
+    .contenedor-IG,
+    .contenedor-TW {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .texto-linkbar-social {
+        font-size: 16px;
+    }
+
+    /* YOUTUBE - COMUNIDAD*/
+    .Titulo-COMUNIDAD {
+        margin-top: 4rem;
+    }
+
+    .social-linkbar {
+        margin-top: 20px;
+    }
+
+    .Titulo-ty-1,
+    .Titulo-comunidad-1 {
+        font-size: 2.4rem;
+    }
+
+    .Sub-titulo-ty-1,
+    .Sub-titulo-comunidad {
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .Titulo-ty-1,
+    .Titulo-comunidad-1 {
+        flex-direction: column;
+        text-align: center;
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+
+        & span {
+            font-size: 1.8rem;
+        }
+    }
+
+    .Sub-titulo-ty-1,
+    .Sub-titulo-comunidad {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    .video1,
+    .video2,
+    .video3 {
+        width: 100%;
+    }
+
+    .containerGrid2 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30% 20% 20% 30%;
+        grid-template-areas:
+            "foto1 foto1"
+            "foto2 foto3"
+            "foto5 foto6"
+            "foto4 foto4";
+        height: 100vh;
+    }
+}

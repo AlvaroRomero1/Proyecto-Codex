@@ -1,0 +1,118 @@
+@media (max-width: 992px) {
+    
+    .contenedorTitulo {
+        padding: 2rem 0;
+    }
+
+    .subContenedorTitulo {
+        & h2 {
+            font-size: 2.4rem;
+        }
+
+        & h3 {
+            font-size: 1.4rem;
+        }
+    }
+
+    .ConteinerFormulario {
+        padding: 3rem 15%;
+    }
+
+    /* FORMULARIO DE CONTACTO */
+    .FormularioContacto {
+        padding: 0;
+
+        & form {
+            display: block;
+        }
+
+        & form p {
+            padding: 1.5rem 0;
+        }
+    }
+
+
+    /* INFORMACION CONTACTO */
+    .ConteinerContacto {
+        display: block;
+        padding-bottom: 2rem;
+    }
+
+    .InfoContacto {
+        padding: 3rem;
+
+        & p,
+        ul {
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .subContenedorTitulo {
+        & h2 {
+            font-size: 2.2rem;
+        }
+
+        & h3 {
+            font-size: 1.2rem;
+            padding: 0 20%;
+        }
+    }
+
+    /* FORMULARIO DE CONTACTO */
+    .FormularioContacto {
+
+        & form p {
+            padding: 1rem 0;
+        }
+
+        & form button,
+        label {
+            font-size: 0.9rem;
+        }
+    }
+
+    /* INFORMACION CONTACTO */
+    .InfoContacto {
+
+        & p,
+        ul {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    .subContenedorTitulo {
+        & h2 {
+            font-size: 2rem;
+        }
+
+        & h3 {
+            font-size: 1rem;
+            padding: 0 15%;
+        }
+    }
+
+    /* FORMULARIO DE CONTACTO */
+    .FormularioContacto {
+
+        & form button,
+        label {
+            font-size: 0.8rem;
+        }
+    }
+
+    /* INFORMACION CONTACTO */
+    .InfoContacto {
+
+        & p,
+        ul {
+            font-size: 0.8rem;
+        }
+    }
+}
