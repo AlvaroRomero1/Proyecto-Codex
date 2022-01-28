@@ -725,6 +725,10 @@ body {
     font-size: 0.9rem;
     padding-top: 0.80rem; } }
 
+@media (max-width: 317px) {
+  .background1::before {
+    bottom: 1%; } }
+
 @media (max-width: 576px) {
   .social {
     padding-top: 3rem; }
